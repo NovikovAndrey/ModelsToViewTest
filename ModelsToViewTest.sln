@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleModel", "ModelsToViewTest\SingleModel.csproj", "{3E6F645B-A78C-4AF6-A53B-8A1579294574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleModel", "ModelsToViewTest\SingleModel.csproj", "{3E6F645B-A78C-4AF6-A53B-8A1579294574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModelsTest", "ViewModelsTest\ViewModelsTest.csproj", "{DE300693-2CEE-477B-AE34-E11D4F861C42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3E6F645B-A78C-4AF6-A53B-8A1579294574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E6F645B-A78C-4AF6-A53B-8A1579294574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E6F645B-A78C-4AF6-A53B-8A1579294574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE300693-2CEE-477B-AE34-E11D4F861C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE300693-2CEE-477B-AE34-E11D4F861C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE300693-2CEE-477B-AE34-E11D4F861C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE300693-2CEE-477B-AE34-E11D4F861C42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
