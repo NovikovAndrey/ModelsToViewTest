@@ -1,4 +1,5 @@
-﻿
+﻿@using SingleModel.Model
+@model Game
 @{
     Layout = null;
 }
@@ -8,8 +9,11 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>@Model.Name</title>
 </head>
 <body>
+    <p>@Model.Name</p>
+    <p>@Model.Platform</p>
+    <p>@Model.Engine</p>
 </body>
 </html>
