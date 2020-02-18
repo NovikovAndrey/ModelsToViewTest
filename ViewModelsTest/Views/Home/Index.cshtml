@@ -1,0 +1,27 @@
+﻿@using ViewModelsTest.Model
+@using ViewModelsTest.ViewModel
+@model GameViewModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Game</title>
+</head>
+<body>
+    
+    @foreach (PCGame pCGame in Model.PCGames)
+    {
+        <p>@pCGame.Name</p>
+        <p>@pCGame.Company</p>
+        <p>@(new string('-', 30))</p>
+    }
+    <p>@(new string('_', 30))</p>
+    @foreach (XBoxGame xBoxGame in Model.XBoxGames)
+    {
+        <p>@xBoxGame.Name</p>
+        <p>@xBoxGame.Company</p>
+        <p>@(new string('-', 30))</p>
+    }
+</body>
+</html>
